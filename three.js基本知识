@@ -21,6 +21,6 @@ var scene = new THREE.Scene();
 方法：
 toJSON：获取场景的data
 copy
-add
+add:添加元素到场景中（从Object3D中继承过来的方法）
 
 代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
