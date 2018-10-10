@@ -20,3 +20,5 @@ var scene = new THREE.Scene();
 4.background: 首先被渲染
 方法：
 toJSON：获取场景的data
+
+代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
