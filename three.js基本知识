@@ -10,4 +10,13 @@ three.js 可以简化webgl创建三维场景的过程。
 8.创建点云（粒子系统）
 
 
-
+场景：
+var scene = new THREE.Scene();
+作用：用于保存、跟踪所要渲染的物体和使用的光源。
+属性：
+1.fog
+2.overrideMaterial 设置改属性，会将场景中所有物体的材质设置为改属性值
+3.autoUpdate: bool类型 
+4.background: 首先被渲染
+方法：
+toJSON：获取场景的data
