@@ -1,1 +1,8 @@
-var scene = new THREE.Scene();
+three.js 可以简化webgl创建三维场景的过程。
+使用three.js的好处：
+1.创建简单和复杂的三维几何图形
+2.在三维场景下创建动画和移动物体
+
+
+
+
