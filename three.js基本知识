@@ -24,3 +24,11 @@ copy
 add:添加元素到场景中（从Object3D中继承过来的方法）
 
 代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
+
+Object3d:three.js 中大多数对象的基类，
+构造函数：Object3D()无参数
+属性：
+1.castShadow：对象是否渲染阴影，默认为false
+2.children：子节点数组
+3.frustumCulled：bool类型
+
