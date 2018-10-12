@@ -25,6 +25,7 @@ add:添加元素到场景中（从Object3D中继承过来的方法）
 
 代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
 
+---------------------------------------------------------------------------------------
 Object3d:three.js 中大多数对象的基类，
 构造函数：Object3D()无参数
 属性：
@@ -46,10 +47,41 @@ Object3d:three.js 中大多数对象的基类，
 16.quaternion:Quaternion   local rotation
 17.receiveShadow:bool  该材质是否接收（渲染）阴影，默认为false
 18.renderOrder: Number   控制对象的呈现顺序
-
+19.rotation: Eduler   local rotation
+20.scale: Vector3   local scale
+21.up: Vector3  -----------------------和camera 还没有理解
+22.userData: object   用于存储object3d数据的对象，不应该包含function
+23.uuid:不应该被修改
+24.visible:bool  对象是否被渲染
 
 方法：
 1.onAfterRender：object3D渲染后立即调用，参数：renderer,scene,camera,geometry,material,group
 2.onBeforeRender:object3d渲染前调用，参数：renderer,scene,camera,geometry,material,group
+
+Static Properties 静态属性
+1.DefaultUp :Vector3
+2.DefaultMatrixAutoUpdate:Vector3
+
+方法：
+1.add(object:Object3D,...):null
+添加一个object作为该object的子节点，会删除传入对象之前的父节点
+
+2.applyMatrix(matrix:Matrix4):null
+将矩阵变换应用于该object 并且更新该object的位置，旋转，缩放
+
+3.applyQuaternion(quaternion:Quaternion):Object3D
+旋转
+
+4.clone(recursive:Boolean):Object3D
+clone该对象,如果recursive为true还clone其子节点.默认recursive为true
+
+5.copy(object：Object3D,recursive:Boolean):this
+
+
+6.
+
+
+
+
 
 
