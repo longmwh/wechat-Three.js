@@ -1,2 +1,1 @@
-# Hello-World
-一个示例项目
+three.js 微信小游戏 学习笔记
