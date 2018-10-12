@@ -23,7 +23,7 @@ toJSON：获取场景的data
 copy
 add:添加元素到场景中（从Object3D中继承过来的方法）
 
-代码地址：[scene源码]（https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js"scene"）
+代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
 
 ---------------------------------------------------------------------------------------
 Object3d:three.js 中大多数对象的基类，
