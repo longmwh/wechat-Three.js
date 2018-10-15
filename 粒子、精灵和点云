@@ -1,2 +1,7 @@
 Sprite 
 总是面向摄像机，没有阴影
+
+
+
+Vector3   velocityX  定义如何水平移动
+velocityY 定义以多快速度落下
