@@ -15,3 +15,8 @@ center:Vector   the sprite's anchor point 图片的锚点
 
 
 SpriteMaterial
+var spriteMap = new THREE.TextureLoader.load("textures/sprite.png");
+var spriteMaterial = new THREE.ApriteMaterial({map:spriteMap,color:0xffffff});
+var sprite = new THREE.Sprite(spriteMaterial);
+sprite.scale.set(200,200,1);
+scene.add(sprite);
