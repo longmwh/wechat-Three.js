@@ -1,22 +1,20 @@
 Sprite 
-总是面向摄像机，没有阴影
+=============
+__总是面向摄像机，没有阴影__
 
-var spriteMap = new THREE.TextureLoader().load( "sprite.png" );
-var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, color: 0xffffff } );
-var sprite = new THREE.Sprite( spriteMaterial );
-scene.add( sprite );
+    var spriteMap = new THREE.TextureLoader().load( "sprite.png" );
+    var spriteMaterial = new THREE.SpriteMaterial( { map: spriteMap, color: 0xffffff } );
+    var sprite = new THREE.Sprite( spriteMaterial );
+    scene.add( sprite );
 
-构造函数
-Sprite(material:Material)
+__构造函数__
+    Sprite(material:Material)
 
-center:Vector   the sprite's anchor point 图片的锚点
+_center:Vector   the sprite's anchor point 图片的锚点_
 
-
-
-
-SpriteMaterial
-var spriteMap = new THREE.TextureLoader.load("textures/sprite.png");
-var spriteMaterial = new THREE.ApriteMaterial({map:spriteMap,color:0xffffff});
-var sprite = new THREE.Sprite(spriteMaterial);
-sprite.scale.set(200,200,1);
-scene.add(sprite);
+    SpriteMaterial
+    var spriteMap = new THREE.TextureLoader.load("textures/sprite.png");
+    var spriteMaterial = new THREE.ApriteMaterial({map:spriteMap,color:0xffffff});
+    var sprite = new THREE.Sprite(spriteMaterial);
+    sprite.scale.set(200,200,1);
+    scene.add(sprite);

@@ -6,8 +6,8 @@ __在JavaScript ES6中，export与export default均可用于导出常量、函�
 1、
 
 //demo1.js
-    export const str = 'hello world'
 
+    export const str = 'hello world'
     export function f(a){
         return a+1
     }
@@ -20,8 +20,6 @@ __在JavaScript ES6中，export与export default均可用于导出常量、函�
     import { str, f } from 'demo1' //也可以分开写两次，导入的时候带花括号12
 
 2、
-
-
 
 //demo1.js
 
