@@ -19,7 +19,7 @@
 8.创建点云（粒子系统）
 
 
-###场景：
+###,场景：
 
     var scene = new THREE.Scene();
 
