@@ -1,5 +1,6 @@
 **使用PlaneGeometry播放帧动画**
 
+*以下代码在微信小游戏中实际测试过，可以使用*
 
     var planeGeo = new THREE.PlaneGeometry(16, 16);
     var texture = new THREE.TextureLoader().load("images/prize_491.png");
