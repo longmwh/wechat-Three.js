@@ -45,7 +45,7 @@ add:添加元素到场景中（从Object3D中继承过来的方法）
 [scene源码](https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js "Markdown")
 
 ---------------------------------------------------------------------------------------
-*Object3d*:three.js 中大多数对象的基类，
+*Object3d*:-three.js 中大多数对象的基类，
 
 构造函数：Object3D()无参数
 
@@ -100,6 +100,7 @@ add:添加元素到场景中（从Object3D中继承过来的方法）
 24.visible:bool  对象是否被渲染
 
 **方法：**
+
 1.onAfterRender：object3D渲染后立即调用，参数：renderer,scene,camera,geometry,material,group
 
 2.onBeforeRender:object3d渲染前调用，参数：renderer,scene,camera,geometry,material,group
