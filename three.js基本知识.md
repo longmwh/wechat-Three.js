@@ -1,12 +1,20 @@
 three.js 可以简化webgl创建三维场景的过程。
 使用three.js的好处：
+
 1.创建简单和复杂的三维几何图形
+
 2.在三维场景下创建动画和移动物体
+
 3.为物体添加纹理和材质
+
 4.使用各种光源来装饰场景
+
 5.通过三维模型软件加载物体
+
 6.为三维场景添加高级后期处理效果
+
 7.使用自定义着色器
+
 8.创建点云（粒子系统）
 
 
@@ -23,7 +31,7 @@ toJSON：获取场景的data
 copy
 add:添加元素到场景中（从Object3D中继承过来的方法）
 
-代码地址：https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js
+[scene代码地址：](https://github.com/mrdoob/three.js/blob/master/src/scenes/Scene.js "Markdown")
 
 ---------------------------------------------------------------------------------------
 Object3d:three.js 中大多数对象的基类，
