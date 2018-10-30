@@ -12,11 +12,11 @@ __在JavaScript ES6中，export与export default均可用于导出常量、函�
         return a+1
     }
 
+
 对应的导入方式：
 
-
-
 //demo2.js
+
     import { str, f } from 'demo1' //也可以分开写两次，导入的时候带花括号12
 
 2、
@@ -24,6 +24,7 @@ __在JavaScript ES6中，export与export default均可用于导出常量、函�
 
 
 //demo1.js
+
     export default const str = 'hello world'12
 
 对应的导入方式：
@@ -31,9 +32,6 @@ __在JavaScript ES6中，export与export default均可用于导出常量、函�
 
 
 //demo2.js
+
 import str from 'demo1' //导入的时候没有花括号
---------------------- 
-作者：zhou_xiao_cheng 
-来源：CSDN 
-原文：https://blog.csdn.net/zhou_xiao_cheng/article/details/52759632 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
