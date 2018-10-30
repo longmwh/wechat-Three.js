@@ -32,3 +32,9 @@
 
 _通过创建一个PlaneGeometry对象，然后定时修改Plane的material上面的map来修改Plane显示的图片，这样就实现了帧动画_
 
+_注意：要将plane材质属性transparent设置为true，这样图片中透明部分才不会显示出来_
+
+_可以修改材质中的opacity属性来设置图片的透明度，实现渐隐效果_
+
+__使用Sprite播放帧动画和使用plane播放帧动画类似，只是把创建plane修改为创建Sprite对象__
+
