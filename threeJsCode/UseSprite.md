@@ -1,4 +1,4 @@
-**使用Sprite播放帧动画**
+**使用PlaneGeometry播放帧动画**
 
 
     var planeGeo = new THREE.PlaneGeometry(16, 16);
@@ -30,5 +30,5 @@
         }
     }, 100);
 
-_通过创建一个Sprite对象，然后定时修改Sprite的material上面的map来修改Sprite显示的图片，这样就实现了帧动画_
+_通过创建一个PlaneGeometry对象，然后定时修改Plane的material上面的map来修改Plane显示的图片，这样就实现了帧动画_
 
