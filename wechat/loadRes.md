@@ -1,12 +1,12 @@
 
-    __用于加载json格式的模型__
+__用于加载json格式的模型__
     let modelLoader = new THREE.JSONLoader();
     modelLoader['load'](url, function(geometry, materials) {
                 
     }
 
 
-    加载ArrayBuffer类型的数据
+__加载ArrayBuffer类型的数据__
         var loader = new THREE.FileLoader();
         loader['setResponseType']('arraybuffer');
         loader['load'](url,

@@ -20,8 +20,8 @@
 
     此处将renderer['autoClear']设置为false是为了不自动清理最后一个camera之前的camera渲染出来的界面，
     renderer['autoClear'] = false;
-    这里将renderer['autoClear']设置为false后，renderer不会自动清理界面，需要我们在调用
-    renderer['render'](this.scene, this.camera);之前
+    这里将renderer['autoClear']设置为false后，renderer不会自动清理界面，需要我们在第一次调用
+    renderer['render'](scene, camera);之前
     手动调用renderer["clear"]();来清理上一帧绘制出的界面
 
 
